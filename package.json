@@ -1,6 +1,6 @@
 {
   "name": "@wide/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "The recommended stylelint config for scss files",
   "license": "MIT",
   "author": "Julien Martins Da Costa (https://github.com/jdacosta)",
