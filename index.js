@@ -4,7 +4,7 @@ module.exports = {
   extends: "stylelint-config-property-sort-order-smacss",
   plugins: ["stylelint-order", "stylelint-scss"],
   rules: {
-    "at-rule-blacklist": ["debug"],
+    "at-rule-disallowed-list": ["debug"],
     "at-rule-empty-line-before": [
       "always",
       {
@@ -24,7 +24,7 @@ module.exports = {
     "at-rule-name-space-after": "always-single-line",
     "at-rule-no-unknown": null,
     "at-rule-no-vendor-prefix": true,
-    "at-rule-property-requirelist": {
+    "at-rule-property-required-list": {
       "font-face": [
         "font-display",
         "font-family",
@@ -87,7 +87,7 @@ module.exports = {
         ]
       }
     ],
-    "declaration-property-value-blacklist": {
+    "declaration-property-value-disallowed-list": {
       "border": ["none"],
       "border-top": ["none"],
       "border-right": ["none"],
