@@ -1,6 +1,6 @@
 {
   "name": "@wide/stylelint-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "The recommended stylelint config for scss files",
   "license": "MIT",
   "author": "Julien Martins Da Costa (https://github.com/jdacosta)",
@@ -17,9 +17,9 @@
     "node": ">=10.13.0"
   },
   "peerDependencies": {
-    "stylelint": "^13.5.0",
+    "stylelint": "^13.7.0",
     "stylelint-config-property-sort-order-smacss": "^6.3.0",
-    "stylelint-order": "^4.0.0",
-    "stylelint-scss": "^3.17.2"
+    "stylelint-order": "^4.1.0",
+    "stylelint-scss": "^3.18.0"
   }
 }
