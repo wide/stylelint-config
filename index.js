@@ -1,9 +1,13 @@
 "use strict";
 
 module.exports = {
-  extends: "stylelint-config-property-sort-order-smacss",
+  extends: [
+    "stylelint-config-property-sort-order-smacss",
+    "stylelint-config-standard-scss"
+  ],
   plugins: ["stylelint-order", "stylelint-scss"],
   rules: {
+    "alpha-value-notation": "number",
     "at-rule-disallowed-list": ["debug"],
     "at-rule-empty-line-before": [
       "always",
@@ -50,6 +54,7 @@ module.exports = {
     "block-opening-brace-newline-after": "always",
     "block-opening-brace-space-after": "always-single-line",
     "block-opening-brace-space-before": "always",
+    "color-function-notation": null,
     "color-hex-case": "lower",
     "color-hex-length": "short",
     "color-named": "never",
@@ -58,6 +63,7 @@ module.exports = {
     "comment-no-empty": true,
     "comment-whitespace-inside": "always",
     "custom-property-empty-line-before": "never",
+    "custom-property-pattern": null,
     "declaration-bang-space-after": "never",
     "declaration-bang-space-before": "always",
     "declaration-block-no-duplicate-properties":  [
@@ -106,7 +112,6 @@ module.exports = {
       }
     ],
     "font-weight-notation": "numeric",
-    "function-calc-no-invalid": true,
     "function-calc-no-unspaced-operator": true,
     "function-comma-newline-after": "always-multi-line",
     "function-comma-newline-before": "never-multi-line",
@@ -165,6 +170,8 @@ module.exports = {
     "media-query-list-comma-newline-before": "never-multi-line",
     "media-query-list-comma-space-after": "always-single-line",
     "media-query-list-comma-space-before": "never",
+    "no-descending-specificity": null,
+    "no-duplicate-selectors": null,
     "no-eol-whitespace": true,
     "no-empty-first-line": true,
     "no-empty-source": true,
@@ -227,6 +234,7 @@ module.exports = {
     "selector-combinator-space-after": "always",
     "selector-combinator-space-before": "always",
     "selector-descendant-combinator-no-non-space": true,
+    "selector-id-pattern": null,
     "selector-list-comma-newline-after": "always",
     "selector-list-comma-newline-before": "never-multi-line",
     "selector-list-comma-space-after": "always-single-line",
@@ -276,6 +284,7 @@ module.exports = {
     "scss/at-mixin-pattern": "^[a-z]+([a-z0-9-]+[a-z0-9]+)?$",
     "scss/at-rule-conditional-no-parentheses": true,
     "scss/at-rule-no-unknown": true,
+    "scss/comment-no-empty": null,
     "scss/comment-no-loud": true,
     "scss/declaration-nested-properties": "never",
     "scss/dimension-no-non-numeric-values": true,
