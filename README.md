@@ -4,7 +4,7 @@
 
 It turns on all the [_possible errors_](https://stylelint.io/user-guide/rules#possible-errors) rules within stylelint.
 
-- **SCSS Property**: Use `stylelint-scss` plugin. Explore this project on [Github](https://github.com/kristerkari/stylelint-scss).
+- **SCSS Property**: Use [`stylelint-scss`](https://github.com/kristerkari/stylelint-scss) plugin and [`stylelint-config-standard-scss`](https://github.com/stylelint-scss/stylelint-config-standard-scss) config. 
 
 - **Property Ordering**: Extends `stylelint-config-property-sort-order-smacss`. Refer to [here](https://github.com/cahamilton/css-property-sort-order-smacss/blob/master/index.js) for the comprehensive list of property orders.
 
@@ -60,6 +60,7 @@ Use Stylelint CLI to check the supported files. Drop this line into your package
 ## Thanks
 - [stylelint](https://github.com/stylelint/stylelint)
 - [stylelint-config-property-sort-order-smacss](https://github.com/cahamilton/stylelint-config-property-sort-order-smacss)
+- [stylelint-config-standard-scss](https://github.com/stylelint-scss/stylelint-config-standard-scss)
 - [stylelint-order](https://github.com/hudochenkov/stylelint-order)
 - [stylelint-scss](https://github.com/kristerkari/stylelint-scss)
 
