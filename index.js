@@ -246,6 +246,7 @@ module.exports = {
     "selector-max-id": 1,
     "selector-max-universal": 1,
     "selector-no-vendor-prefix": true,
+    "selector-not-notation": "complex",
     "selector-pseudo-class-case": "lower",
     "selector-pseudo-class-no-unknown": true,
     "selector-pseudo-class-parentheses-space-inside": "never",
